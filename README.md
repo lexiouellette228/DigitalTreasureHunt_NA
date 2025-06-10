@@ -13,7 +13,7 @@ webPage2/: Directory containing the code, images, and other resources for the se
 treasure.html: The third and final webpage. Contains the treasure chest.
 icons/: Directory containing icon images used in the treasure map.
 treasureMap2.png: The background image of the treasure map.'
-files/: Directory containing the activity files, student guide, and teacher guide. 
+files/: Directory containing the activity files and student guide. 
 files.html: The first webpage. All the other webpages will be accessed using this webpage. 
 math.html: The second webpage. Contains the math problem that needs to be solved. 
 
