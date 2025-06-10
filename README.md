@@ -8,11 +8,12 @@ The project consists of an HTML files that includes embedded CSS for styling and
 
 Files and Directories
 index.html: The main HTML file containing the structure and content of the web application (The treasure map). The link to the first webpage is located here.
-web_page1/: Directory containing the code for the first webpage. 
-webPage2/: Directory containing the code for the second webpage.
+web_page1/: Directory containing the code, images, and other resources for the first webpage. 
+webPage2/: Directory containing the code, images, and other resources for the second webpage.
 treasure.html: The third and final webpage. Contains the treasure chest.
 icons/: Directory containing icon images used in the treasure map.
 treasureMap2.png: The background image of the treasure map.'
+files/: Directory containing the activity files, student guide, and teacher guide. 
 files.html: The first webpage. All the other webpages will be accessed using this webpage. 
 math.html: The second webpage. Contains the math problem that needs to be solved. 
 
