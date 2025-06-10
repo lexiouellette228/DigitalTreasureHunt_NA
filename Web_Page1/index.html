@@ -1,0 +1,36 @@
+<!--Login page for the website 1 -->
+<!--Written by Alexis Ouellette-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Files</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="card p-4" style="width: 350px; background: rgba(255, 255, 255, 0.9); border-radius: 10px;">
+            <h2 class="text-center mb-4">Login</h2>
+            <h7 class="text-center mb-4">The username is case and symbol sensitive. Enter in the username excatly as the placeholder.</h7>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">username</label>
+                    <input type="text" class="form-control" id="username" aria-label="username first_last" placeholder="first_last" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" aria-label="Enter password" placeholder="Enter password" required>
+                </div>
+                <button type="submit" aria-label="Login" class="btn btn-dark btn-block">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
